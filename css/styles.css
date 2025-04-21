@@ -1,0 +1,79 @@
+:root {
+  --primary-light: #faf4ea;
+  --primary-green: #819b57;
+  --primary-brown: #31261a;
+  --secondary-green: #465929;
+  --secondary-light-brown: #a18268;
+  --secondary-light-gray: #cfcfbc;
+  --white: #fafafa;
+}
+
+body {
+  color: var(--primary-brown);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0; /* скинули зовнішні відступи у заголовків */
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0; /* скинули зовнішні відступи у списках */
+  padding-left: 0; /* скинули внутрішні відступи у списках від браузера */
+  list-style-type: none; /* скинули всі маркери у списках від браузера */
+}
+
+a {
+  color: inherit; /* успадковуємо колір тексту від батьківського елементу */
+  text-decoration: none; /* скинули підкреслення у посилань */
+}
+
+button {
+  cursor: pointer; /* змінили курсор на пальчик при наведенні на кнопку */
+}
+
+.button {
+  border: 2px solid var(--primary-green);
+  border-radius: 8px;
+  background-color: var(--primary-green);
+  padding: 16px 32px;
+  width: 238px;
+  height: 59px;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--secondary-green);
+  /* cursor: pointer; */
+}
+.link {
+  color: var(--primary-light);
+  text-decoration: none;
+}
+.link:hover {
+  color: var(--primary-green);
+  text-decoration: underline;
+}
+
+.hero-title {
+  color: var(--primary-light);
+}
+
+.accent-color {
+  color: var(--primary-green);
+}
+.advantages-list {
+  background-color: var(--primary-green);
+  color: var(--primary-light);
+}
+
+/* .section-title .accent-color {
+  color: var(--primary-brown);
+} */
