@@ -1,7 +1,7 @@
 :root {
   --primary-light: #faf4ea;
   --primary-green: #819b57;
-  --primary-brown: #31261a;
+  --primary-dark: #31261a;
   --secondary-green: #465929;
   --secondary-light-brown: #a18268;
   --secondary-light-gray: #cfcfbc;
@@ -9,7 +9,7 @@
 }
 
 body {
-  color: var(--primary-brown);
+  color: var(--primary-dark);
 }
 
 h1,
@@ -62,6 +62,8 @@ button {
   text-decoration: underline;
 }
 
+/* ======= HERO SECTION =========== */
+
 .hero-title {
   color: var(--primary-light);
 }
@@ -69,11 +71,13 @@ button {
 .accent-color {
   color: var(--primary-green);
 }
+
+/* ========  ADVANTAGES SECTION ======== */
 .advantages-list {
   background-color: var(--primary-green);
   color: var(--primary-light);
 }
 
-/* .section-title .accent-color {
-  color: var(--primary-brown);
-} */
+.section-title .accent-color {
+  color: var(--primary-dark);
+}
